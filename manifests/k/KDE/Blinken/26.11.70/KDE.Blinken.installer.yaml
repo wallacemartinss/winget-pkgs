@@ -6,17 +6,18 @@ PackageVersion: 26.11.70
 InstallerType: nullsoft
 UpgradeBehavior: install
 ProductCode: Blinken
+ReleaseDate: 2026-08-27
 Installers:
 - Architecture: x64
   Scope: user
-  InstallerUrl: https://cdn.kde.org/ci-builds/education/blinken/master/windows/blinken-master-811-windows-cl-msvc2022-x86_64.exe
-  InstallerSha256: 0F975DB4C7102682A23E88EFFD04ACC17DE19F466A997FCAB4636139C4BA2704
+  InstallerUrl: https://cdn.kde.org/ci-builds/education/blinken/master/windows/blinken-master-842-windows-cl-msvc2022-x86_64.exe
+  InstallerSha256: D1F5D2832A290CA53590D59F92933C1EB5F10751BEB855DE63FB67C72CEF9251
   InstallerSwitches:
     Custom: /CurrentUser
 - Architecture: x64
   Scope: machine
-  InstallerUrl: https://cdn.kde.org/ci-builds/education/blinken/master/windows/blinken-master-811-windows-cl-msvc2022-x86_64.exe
-  InstallerSha256: 0F975DB4C7102682A23E88EFFD04ACC17DE19F466A997FCAB4636139C4BA2704
+  InstallerUrl: https://cdn.kde.org/ci-builds/education/blinken/master/windows/blinken-master-842-windows-cl-msvc2022-x86_64.exe
+  InstallerSha256: D1F5D2832A290CA53590D59F92933C1EB5F10751BEB855DE63FB67C72CEF9251
   InstallerSwitches:
     Custom: /AllUsers
 ManifestType: installer

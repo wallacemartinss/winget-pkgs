@@ -6,17 +6,18 @@ PackageVersion: master
 InstallerType: nullsoft
 UpgradeBehavior: install
 ProductCode: kfourinline
+ReleaseDate: 2026-07-28
 Installers:
 - Architecture: x64
   Scope: user
-  InstallerUrl: https://cdn.kde.org/ci-builds/games/kfourinline/master/windows/kfourinline-master-940-windows-cl-msvc2022-x86_64.exe
-  InstallerSha256: E4DD0C4AD98296680FD2952E7BE4E368208CFBE0358C9AF038DC7B9663A1ADB9
+  InstallerUrl: https://cdn.kde.org/ci-builds/games/kfourinline/master/windows/kfourinline-master-946-windows-cl-msvc2022-x86_64.exe
+  InstallerSha256: 016B5FEDE37C0968DEBA643E37778B945BABA3A43753049699222F5D633A62DC
   InstallerSwitches:
     Custom: /CurrentUser
 - Architecture: x64
   Scope: machine
-  InstallerUrl: https://cdn.kde.org/ci-builds/games/kfourinline/master/windows/kfourinline-master-940-windows-cl-msvc2022-x86_64.exe
-  InstallerSha256: E4DD0C4AD98296680FD2952E7BE4E368208CFBE0358C9AF038DC7B9663A1ADB9
+  InstallerUrl: https://cdn.kde.org/ci-builds/games/kfourinline/master/windows/kfourinline-master-946-windows-cl-msvc2022-x86_64.exe
+  InstallerSha256: 016B5FEDE37C0968DEBA643E37778B945BABA3A43753049699222F5D633A62DC
   InstallerSwitches:
     Custom: /AllUsers
 ManifestType: installer
