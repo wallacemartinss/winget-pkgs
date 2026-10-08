@@ -6,18 +6,18 @@ PackageVersion: master
 InstallerType: nullsoft
 UpgradeBehavior: install
 ProductCode: ksquares
-ReleaseDate: 2026-08-31
+ReleaseDate: 2026-10-02
 Installers:
 - Architecture: x64
   Scope: user
-  InstallerUrl: https://cdn.kde.org/ci-builds/games/ksquares/master/windows/ksquares-master-901-windows-cl-msvc2022-x86_64.exe
-  InstallerSha256: 4992CBC7D0F199E18ECE054E78E87193734346B1EA0F0B16ACD9D7F848019800
+  InstallerUrl: https://cdn.kde.org/ci-builds/games/ksquares/master/windows/ksquares-master-926-windows-cl-msvc2022-x86_64.exe
+  InstallerSha256: D33D086DBE8D8F7FDA51442EFB0E0044301D60301B0E19320EF03F818D8C5078
   InstallerSwitches:
     Custom: /CurrentUser
 - Architecture: x64
   Scope: machine
-  InstallerUrl: https://cdn.kde.org/ci-builds/games/ksquares/master/windows/ksquares-master-901-windows-cl-msvc2022-x86_64.exe
-  InstallerSha256: 4992CBC7D0F199E18ECE054E78E87193734346B1EA0F0B16ACD9D7F848019800
+  InstallerUrl: https://cdn.kde.org/ci-builds/games/ksquares/master/windows/ksquares-master-926-windows-cl-msvc2022-x86_64.exe
+  InstallerSha256: D33D086DBE8D8F7FDA51442EFB0E0044301D60301B0E19320EF03F818D8C5078
   InstallerSwitches:
     Custom: /AllUsers
 ManifestType: installer
